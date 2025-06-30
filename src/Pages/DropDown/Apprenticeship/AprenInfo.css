@@ -1,0 +1,91 @@
+.tsinfo-container {
+  padding: 40px 20px;
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* FORAGE section */
+.forage-section {
+  margin-bottom: 60px;
+}
+
+.highlight  {
+  color: orange;
+  font-weight: bold;
+  font-size: 22px;
+ 
+  padding-top: 50px;
+}
+h2{
+ padding-bottom: 30px;
+}
+p{
+    padding-bottom: 30px;
+}
+.tsinfo-img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+/* How to train section */
+.train-section {
+  background-color: #121212;
+  padding: 30px 0;
+  border-radius: 8px;
+}
+
+.train-title {
+  color: orange;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.train-subtext {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.train-list {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.train-list li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.train-list strong {
+  color: orange;
+}
+.external-link {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.external-link a {
+  color: #00bfff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.external-link a:hover {
+  text-decoration: underline;
+}
+
+.section-line {
+  background-color: orange;
+  height: 6px;
+  width: 100%;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 2px;
+}

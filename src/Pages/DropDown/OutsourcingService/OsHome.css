@@ -1,0 +1,43 @@
+.oshero {
+  width: 100%;
+  background-image: url('../../../assets/RSS.jpg'); /* use your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.os-text h1 {
+  color: white;
+  text-align: center;
+  font-size: 3opx;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.os-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.os-hero {
+  background-image: url('../../../assets/RSS.jpg'); /* Add this image to your /public folder */
+  background-size:100% ;
+  background-position: center;
+  /* padding: 100px 100px; */
+  height: 500px;
+  text-align: center;
+}
+
+.os-hero h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 200px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+

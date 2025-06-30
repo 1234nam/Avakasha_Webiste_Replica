@@ -1,0 +1,45 @@
+.ref-info {
+  padding: 40px 20px;
+  background-color: #121212;
+  color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ref-welcome {
+  color: #ff8800;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.ref-intro,
+.ref-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.benefits-title-ref {
+  color: #ff8800;
+  font-size: 20px;
+  /* font-weight: bold; */
+  margin: 30px 0 20px;
+}
+
+.benefits-list-ref {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.benefits-list-ref li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+

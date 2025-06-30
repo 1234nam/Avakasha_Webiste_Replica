@@ -1,0 +1,65 @@
+.about-candidate {
+  /* padding: 2rem; */
+  padding-left: 300px;
+  background-color: #080808;
+  color: #f0eaea;
+}
+
+.section-title-c{
+  text-align: left;
+  font-size: 2rem;
+  /* margin-bottom: 2rem; */
+  color: orange;
+  padding-bottom: 0.1px;
+
+}
+
+.update-note {
+  padding-top: 50px;
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+  /* font-style: italic; */
+  margin-bottom: 2rem;
+  padding-right: 130px;
+ 
+}
+
+.section-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-right {
+  flex-direction: row;
+}
+
+.image-left {
+  flex-direction: row-reverse;
+}
+
+.text-block, .image-block {
+  flex: 1;
+  min-width: 280px;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: orange;
+}
+
+.description, .evaluation-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}

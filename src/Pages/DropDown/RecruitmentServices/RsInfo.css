@@ -1,0 +1,44 @@
+.rs-container {
+  padding: 2rem 20%; /* Adds spacing left and right */
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+.rs-title {
+  color: orange;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.section-title-rs {
+  color: orange;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  
+}
+.section-det {
+  font-size: 20px;
+}
+
+.section-content-rs {
+  margin: 1rem 0;
+}
+
+
+
+.about-container-rs p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.highlight-orange {
+  color: orange;
+
+}

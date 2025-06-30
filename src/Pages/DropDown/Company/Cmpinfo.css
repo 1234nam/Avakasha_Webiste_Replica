@@ -1,0 +1,72 @@
+.getting-started-cmp {
+  padding: 40px 20px;
+  background-color: #121212;
+  color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* .illustration {
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+/* .illustration img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+} */
+
+.title-cmp {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #00ffff;
+}
+
+.step-cmp {
+  margin-bottom: 50px;
+}
+
+.step-title-cmp {
+  color: #ff7f29;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.step-cmp ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.step-cmp li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.button-group-cmp {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.btn-outline-blue-cmp {
+  padding: 12px 20px;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-blue-cmp:hover {
+  background-color: #00ffff;
+  color: #000000;
+}

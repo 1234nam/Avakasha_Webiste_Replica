@@ -1,0 +1,104 @@
+.carinfo-container {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.carinfo-container h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 290px;
+}
+
+.carinfo-container p {
+  color: #e0e0e0;
+  margin: 20px auto;
+  max-width: 900px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.carinfo-container a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.highlighted-text {
+  color: orange;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 40px auto 30px;
+  max-width: 800px;
+  text-align: left;
+  padding-right: 150px;
+}
+
+.carinfo-text {
+  text-align: justify;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+
+.major-title {
+  color: orange;
+  text-align: center;
+  margin: 60px 0 30px;
+  font-size: 20px;
+}
+
+.differences-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.advantages, .disadvantages {
+  flex: 1;
+  min-width: 300px;
+  color: #e0e0e0;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.advantages p, .disadvantages p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.advantages ol, .disadvantages ol {
+  padding-left: 20px;
+}
+
+.advantages li, .disadvantages li {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .carinfo-container {
+    padding: 30px 15px;
+  }
+
+  .carinfo-container p,
+  .carinfo-text,
+  .highlighted-text {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .differences-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

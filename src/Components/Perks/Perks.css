@@ -1,0 +1,57 @@
+.perks-container {
+  padding: 60px 20px;
+  background-color: #111;
+  text-align: center;
+  color: white;
+}
+
+.perks-heading {
+  font-size: 2.5rem;
+  color: orange;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.perks-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* ✅ Fixed to 2 columns */
+  gap: 25px;
+}
+
+.perk-card {
+  background-color: #2a1c13; /* dark brown */
+  border-radius: 12px;
+  padding: 20px 25px;
+  text-align: left;
+  border: 1px solid #4a2d1f;
+  transition: transform 0.2s ease;
+}
+
+.perk-card:hover {
+  transform: translateY(-5px);
+}
+
+.perk-icon {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.perk-title {
+  font-size: 1.3rem;
+  color: orange;
+  margin-bottom: 8px;
+}
+
+.perk-description {
+  color: #eee;
+  line-height: 1.5;
+}
+
+/* Optional: Responsive stacking on mobile */
+@media (max-width: 768px) {
+  .perks-grid {
+    grid-template-columns: 1fr;
+  }
+}

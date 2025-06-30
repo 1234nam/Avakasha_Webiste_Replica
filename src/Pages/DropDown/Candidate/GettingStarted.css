@@ -1,0 +1,131 @@
+/* GettingStarted.css
+
+.getting-started {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.getting-started .illustration {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.getting-started .illustration img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.getting-started .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3454d1;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.step {
+  margin-bottom: 30px;
+}
+
+.step-title {
+  color: #ff9900;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.step ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.step ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.step a {
+  color: #ffa500;
+  text-decoration: underline;
+} */
+
+
+
+
+
+
+
+.getting-started {
+  padding: 40px 20px;
+  background-color: #121212;
+  color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.illustration {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #00ffff;
+}
+
+.step {
+  margin-bottom: 30px;
+}
+
+.step-title {
+  color: #ff7f29;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.step ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.step li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.btn-outline-blue {
+  padding: 12px 20px;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-blue:hover {
+  background-color: #00ffff;
+  color: #000000;
+}

@@ -1,0 +1,13 @@
+.candidate-lottie-section {
+  background-color: #0e0e0e;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lottie-wrapper {
+  width: 200%;
+  max-width: 800px;
+  height: 100%;
+}
